@@ -1,0 +1,43 @@
+html {
+    
+    background-color: #FFFFFF;
+}
+
+body {
+    
+    margin: 0 auto;
+    width: 1042px;
+    background-color: #EEEEEE;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.avatar {
+    
+    flex: 0.1;
+}
+
+.contato {
+    
+    flex: 0.8;
+}
+
+.social {
+    
+    flex: 0.1;
+}
+
+.flex {
+    
+    display: flex;
+    flex-direction: row;
+}
