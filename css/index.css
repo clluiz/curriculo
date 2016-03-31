@@ -36,7 +36,7 @@ ul {
 
 .header-cv {
     
-    background-color: #9DFF80;
+    background-color: #538246;
     padding: 20px;  
 }
 
@@ -69,6 +69,7 @@ ul {
 .contato p {
     
     text-align: right;
+    color: #e0e0e0;
 }
 
 .social {
