@@ -1,13 +1,15 @@
 html {
     
-    background-color: #FFFFFF;
+    background-color: #EEEEEE;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 16px;
 }
 
 body {
     
-    margin: 0 auto;
+    margin: 0 auto; 
     width: 1042px;
-    background-color: #EEEEEE;
+    background-color: #FFFFFF;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -21,6 +23,38 @@ p {
     padding: 0;
 }
 
+a {
+    
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul {
+    
+    list-style-type: none;
+}
+
+.header-cv {
+    
+    background-color: #9DFF80;
+    padding: 20px;  
+}
+
+.avatar > img {
+    
+    width:140px;
+    height: 140px; 
+    border-radius: 85px;
+}
+
+.header-secao {
+    
+    padding: 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
 .avatar {
     
     flex: 0.1;
@@ -28,12 +62,20 @@ p {
 
 .contato {
     
-    flex: 0.8;
+    flex: 0.85;
+    margin: 0 auto;
+}
+
+.contato p {
+    
+    text-align: right;
 }
 
 .social {
     
-    flex: 0.1;
+    flex: 0.15;
+    background-color: #FFFFFF;
+    padding: 5px;
 }
 
 .flex {
