@@ -1,7 +1,7 @@
 html {
     
     background-color: #EEEEEE;
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 16px;
 }
 
@@ -37,7 +37,8 @@ ul {
 .header-cv {
     
     background-color: #538246;
-    padding: 20px;  
+    padding: 0px 0px 0px 20px;  
+    height: 125px;
 }
 
 .avatar > img {
@@ -60,22 +61,40 @@ ul {
     flex: 0.1;
 }
 
-.contato {
+.avatar img {
+    
+    margin-top: 10px;
+}
+
+.titulo {
     
     flex: 0.85;
     margin: 0 auto;
 }
 
-.contato p {
+.titulo p {
     
-    text-align: right;
-    color: #e0e0e0;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.titulo p:first-child {
+    
+    padding-top: 10px;
+    font-size: 2.2em;
 }
 
 .social {
     
-    flex: 0.15;
+    flex: 0.05;
     background-color: #FFFFFF;
+    padding: 0px;
+}
+
+.contato {
+    
+    text-align: center;
+    font-size: 0.8rem;
     padding: 5px;
 }
 
